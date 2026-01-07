@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: "Noto Sans KR";}
+ul, li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+
+
+header{
+  width: 100%;
+  min-width: 1280px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+.inner{
+  width: 1280px;
+  margin: auto;
+  padding: 0 45px;
+}
+header .inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+header .inner .gnb{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 34px;
+}
+header .inner img{
+  display: block;
+}
+
+
+#banner{
+  width: 100%;
+  min-width: 1280px;
+  height: 500px;
+  background: url(../img/Banner.png) center/cover;
+}
+#banner .inner{
+  height: 100%;
+  display: flex;
+  flex-direction: column; /* flex 세로정렬 */
+  justify-content: center;
+  align-items: center;
+}
+#banner .inner h1{
+  color: white;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: -1px;
+  font-weight: normal;
+  text-align: center;
+}
+#banner .inner button{
+  outline: none; border: none;
+  width: 180px;
+  height: 58px;
+  background-color: white;
+  color: #333;
+  border-radius: 50px;
+  margin-top: 28px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#banner .inner button:hover{
+  color: white;
+  background-color: #c08e42;
+}
+
+
+#overview{
+  width: 100%;
+  min-width: 1280px;
+  height: 500px;
+  overflow: hidden;
+}
+#overview .inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 93px;
+}
+#overview .inner h1{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 45px;
+  color: #333;
+}
+#overview .inner p{
+  font-size: 15px;
+  line-height: 24px;
+  color: #333;
+  margin-top: 6px;
+}
+
+
+#features{
+  width: 100%;
+  min-width: 1280px;
+  height: 700px;
+  padding: 100px 0;
+}
+#features .inner{
+  display: flex;
+  gap: 10px;
+}
+#features .inner .card{
+  width: 390px;
+  height: 500px;
+}
+#features .inner img{
+  display: block;
+  width: 100%;
+  height: 320px;
+}
+#features .inner .card h2{
+  font-size: 24px;
+  line-height: 36px;
+  color: #333;
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+#features .inner .card p{
+  font-size: 15px;
+  line-height: 24px;
+  color: #333;
+}
+
+
+#pricing{
+  width: 100%;
+  min-width: 1280px;
+  height: 810px;
+  padding: 70px 0;
+  background-color: #f6f6f6;
+}
+#pricing .inner h1{
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+#pricing .inner .wrap{
+  width: 790px;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+}
+#pricing .inner .card{
+  height: 550px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+#pricing img{
+  display: block;
+}
+#pricing .inner h2{
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 30px;
+  color: #333;
+}
+#pricing .inner h3{
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin-top: 10px;
+  color: #333;
+  margin-bottom: 25px;
+}
+#pricing .inner b{
+  font-size: 15px;
+  font-weight: normal;
+  margin-right: 6px;
+  color: #333;
+}
+#pricing .inner p{
+  font-size: 15px;
+  line-height: 24px;
+  color: #666;
+  margin-bottom: 6px;
+}
+#pricing button{
+  outline: none; border: none;
+  position: absolute;
+  left: 50%; bottom: 30px;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 60px;
+  background-color: #222;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+#pricing button:hover{
+  background-color: #c08e42;
+}
+
+
+#footer{
+  width: 100%;
+  min-width: 1280px;
+  height: 300px;
+  background: url(../img/Banner-Closing.png) center/cover;
+  padding: 65px 0;
+  text-align: center;
+}
+#footer h2{
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: normal;
+  color: white;
+  margin-bottom: 20px;
+}
+#footer button{
+  outline: none; border: none;
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: white;
+  color: #222;
+  cursor: pointer;
+}
+#footer button:hover{
+  color: white;
+  background-color: #c08e42;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
